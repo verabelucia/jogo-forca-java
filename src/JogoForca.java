@@ -214,9 +214,7 @@ public class JogoForca {
 
                         Random random = new Random();
                         int index = random.nextInt(palavras.length - 1);
-                        System.out.println(index);
                         String palavraSelecionada = palavras[index].toLowerCase();
-                        System.out.println(palavraSelecionada);
 
                         int qtdErros = 0;
                         List<String> caracteresDigitados = new ArrayList<>();
